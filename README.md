@@ -7,7 +7,7 @@ screen and continue running in the background, then later reattached.
 
 tmux is customizable in every way, so I decided to change a couple of things. 
 Apply this configuration and you will experience happy tmux sessions. Or just 
-take a bit and leave the rest ;) 
+take a bit and leave the rest.
 
 ### Features
 
@@ -24,7 +24,16 @@ If you try out new things in your config, you don't want to miss this.
 * Don't rename windows automatically. 
 
 
-### Cheatsheet
+### Installation
+Copy the config file to your home directory: `~/.tmux.conf`
+
+Then, reload the configuration by running 
+`$ tmux source-file ~/.tmux.conf`
+
+Open a new tmux session and enjoy :)
+
+
+### CheatSheet
 
 Start a new session
 
@@ -69,11 +78,3 @@ rename window | `C-Space ,`
 jump to window | `C-Space <window_id>`
 split vertical | `C-Space \|`
 split horizontal | `C-Space -`
-
-### Installation
-Copy the config file to your home directory: `~/.tmux.conf`
-
-Then, reload the configuration by running 
-`$ tmux source-file ~/.tmux.conf`
-
-Open a new tmux session and enjoy :)
