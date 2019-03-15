@@ -3,9 +3,9 @@
 > tmux is a terminal multiplexer: it enables a number of terminals to be created,
 accessed, and controlled from a single screen. tmux may be detached from a
 screen and continue running in the background, then later reattached.
-Offical GitHub Repository: [tmux/tmux](https://github.com/tmux/tmux/wiki)
+[~ github.com/tmux](https://github.com/tmux/tmux/wiki)
 
-> tmux is customizable in every way, so I decided to change a couple of things. 
+tmux is customizable in every way, so I decided to change a couple of things. 
 Apply this configuration and you will experience happy tmux sessions. Or just 
 take a bit and leave the rest ;) 
 
